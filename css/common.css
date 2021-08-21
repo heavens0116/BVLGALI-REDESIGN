@@ -1,0 +1,106 @@
+/* 블럭요소에 있는 모든 여백제거  */
+
+h1,h2,h3,h4,h5,ul,li,ol,p,body {
+    margin: 0;
+    padding:0;
+  
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 16px;
+    background-color: #fff;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+button,
+input,
+select,
+textarea {
+    background-color: transparent;
+    border: 0;
+}
+
+
+
+/* li 장식 제거 */
+li{
+    list-style:none;
+}
+
+/* a 글자색, 밑줄 */
+a{
+    text-decoration:none;
+}
+
+/* 이미지와 글자의 정렬로 생기는 여백 제거 */
+
+img{
+    vertical-align:top;
+}
+
+/* i,em,address  기울여진 글자 바로*/
+i,em,address{
+font-style:normal;
+}
+
+input,button{
+    vertical-align: bottom;
+}
+
+
+
+/* 마우스모양 */
+label{
+    cursor:pointer;
+}
+
+/* 기본글씨체 크기, 줄간격, 색상 */
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:13px;    
+    color:#666;
+  
+}
+
+/* section 제목윽로 입력한 내용을 화면에서만 사라지게,
+리더기로는 읽을 수 있도록 */
+.blind{
+    position:absolute;
+    top:-9999px;
+
+}
+
+/* 모든 자식이 float 되면 부모가 사라진다, 찾기 */
+.clearFix:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+hr{
+    display:none;
+}
+/* .skip 홈페이지에 접속하겨 마우스가 안될경우 tab키를 눌렀을때, 메인메뉴와, 본문으로 바로 갈 수 있도록 바로가기 메뉴 넣기
+ */
+
+ .skip{}
+
+ .skip a{
+     width:100%;
+     height:50px;
+     line-height:50px;
+     position: absolute;
+     background: #222;
+     color: white;
+     font-size:22px;
+     text-align:center;
+     font-weight:bold;
+     top:-99999px;
+ }
+
+ .skip a:focus{
+     top:0;
+ }

@@ -1,0 +1,649 @@
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+
+
+body {
+    font-family: 'Noto Sans KR', sans-serif; 
+    font-size:16px;
+    color:#000;
+}
+
+/* a {
+    color:#333;
+} */
+
+/* top menu */
+
+.center{
+    max-width:1580px;
+    /* background-color:darkkhaki; */
+    margin:0 auto;
+    position:relative;
+}
+
+
+
+
+/* header */
+
+/* header */
+
+header{
+    /* width:100%; */
+    /* height:400px; */
+    /* background-color: rgb(196, 159, 231,0.5); */
+    /* width:1850px; */
+    position: relative;
+    z-index: 1000;
+  } 
+  
+  header>.center{
+    position: relative;
+  }
+  
+  /* logo */
+  
+  .logo{
+    float:left;
+    margin:40px 0;
+    width:250px;
+    /* background-color: darkblue; */
+  }
+  .logo img{
+    width: 100%;;
+  }
+  
+  header .top {
+    /* background-color: cadetblue; */
+    position:absolute;
+    top:10px;
+    right:0;
+    /* margin-top:15px; */
+    /* margin-right:50px; */
+    /* max-width:1580px; */
+    font-size:13px; 
+    /* margin:10px 0; */
+    color:#222;   
+  }
+  
+  
+  .top>a {
+   /* background-color: navy; */
+      /* position: relative; */
+    /* padding:20px 0 0 0; */
+    /* margin:20px 0 20px 0; */
+    margin-left:20px;
+    /* margin-bottom:30px; */
+  }
+  
+  /* menu */
+  
+  #nav{
+    margin-top:70px;
+    /* float:right; */
+    position: absolute;
+    right:0;
+    /* overflow: hidden; */
+    /* height: auto; */
+  
+    /* max-width: 1580px; */
+    /* text-align: center; */
+    /* display: flex;
+    justify-content: space-between; */
+
+  }
+  
+  .nav_wrap{
+    /* max-width:1580px; */
+    /* overflow: hidden; */
+    /* display: flex;
+    justify-content: space-between; */
+    position: relative;
+    /* background-color: blue; */
+  }
+  
+  .nav_wrap>li{
+      float:left;
+      margin-left:50px;
+  }
+  .nav_wrap>.mainmenu{
+    /* font-size:18px;
+    font-weight:bolder;
+    font-family: 'Lato', sans-serif; */
+    /* top:30px; */
+    /* background-color: blueviolet; */
+  
+  
+  }
+  
+  /* .nav_wrap>.mainmenu>a{
+    /* display: flex; */
+    /* margin-bottom: 30px; */
+    /* font-size:18px; */
+    /* font-weight:bolder; */
+    /* font-family: 'Lato', sans-serif; */
+  /* } */
+  
+
+ 
+
+  .sub_main{
+      background:white;
+      opacity: 0.9;
+      position: absolute;
+      width:100%;
+      /* height:350px; */
+      left:0;
+      display: none;
+  }
+
+  /* .sub_main:hover{
+    background:black;
+    color: white;
+  }
+   */
+
+  .sub_main>.sub_wrap>li{
+    line-height:37px;
+   
+  
+  }
+  .sub_main>.sub_wrap>li>a{
+      /* background:green; */
+      display: block;
+      padding:10px 20px;
+  }
+ 
+  .nav_wrap>li:hover .sub_main{
+    display: block;
+    /* color: white; */
+  }
+  
+  
+  
+  .sub_main>.sub_wrap .sub{
+    position: absolute;
+    left:150px;
+    top:0px;
+    bottom:0;
+    /* background-color: darkolivegreen; */
+    width:100%;
+    display: none;
+  }
+  
+  .sub_main>.sub_wrap>li:hover .sub{
+    display: block;
+    
+  }
+/* .sub>li{
+    float:left;
+} */
+
+  
+  .sub_main>.sub_wrap .sub .sub_box{
+    /* display: block; */
+    position: absolute;
+    width:400px;
+    height:400px;
+    /* left:50px; */
+    margin-left:200px;
+    display: none;
+    background-color: orange;
+  }
+  
+  .sub_main>.sub_wrap .sub .sub_box>li{
+      right:0;
+      /* position: absolute; */
+    /* height: 300px; */
+  }
+  
+
+
+  .sub_wrap{
+      float:left;
+  }
+  .sub_main p{
+    float:right;
+    width:300px;
+  }
+  
+  
+  .sub_main p>img{
+    width:100%;
+  }
+  
+/* mainBanner */
+
+#mainbanner{
+    overflow: hidden;
+    margin-bottom:65px;
+    /* background-color: red; */
+    height:450px;
+    /* background:#555; */
+    position:relative;
+}
+
+
+
+.mainBanner>.banner_wrap .banner{
+
+    position:absolute;
+}
+.mainBanner>.banner_wrap .banner img{
+    /* height:600px; */
+}
+
+
+.mainBanner>.banner_wrap .banner h2,
+.mainBanner>.banner_wrap .banner button{
+    /* background-color: blueviolet; */
+    position:absolute;
+    text-align: center;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:10px;
+
+}
+
+.mainBanner>.banner_wrap .banner button{
+    /* background-color: brown; */
+    top:50%;
+    left:355px;
+    font-size: 20px;
+    color:#888;
+    border:1px solid #888;
+}
+
+
+.mainBanner>.banner_wrap .banner h2{
+    font-size:30px;
+}
+
+.mainBanner>.banner_wrap .banner .one{
+    /* background-color: brown; */
+    padding-top:100px;
+    left:20%;
+    
+}
+
+.mainBanner>.banner_wrap .banner .two{
+    /* right:40%; */
+    /* left:30%; */
+    /* margin-right:20px; */
+    padding:100px;
+    /* background-color:silver; */
+}
+
+.mainBanner>.banner_wrap .banner .three{
+    color:white;
+    left:20%;
+}
+
+.mainBanner>.banner_wrap .banner .button{
+    background-color:teal;
+    font-size:20px;
+    font-family: 'Lato', sans-serif; 
+    color:#666666;
+    margin-bottom:75px;
+}
+
+/* cirBtn */
+
+.cirBtn{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right:50%;
+    top:84%;
+    /* bottom:0; */
+    width:280px;
+    padding-left:50px;
+    /* background-color: cornflowerblue; */
+}
+
+
+.cirBtn>li{
+    display: block;
+    float:left;
+    width:20px;
+    height: 20px;
+    margin: 20px;
+    background: #ccc;
+    border-radius: 50%;
+    text-indent:-9999px;
+    bottom:30px;
+    /* padding-top:30px; */
+}
+
+.cirBtn>li:hover{
+    background: rgb(41, 41, 41);
+}
+
+/* <!-- new Collection --> */
+
+
+.new_collection{
+    /* position:relative; */
+    /* display: inline-block; */
+}
+
+
+.new_collection>.container{
+    top:300px;
+    /* position:absolute;  */
+    display: flex;
+    justify-content:center; 
+    /* top:0; */
+    /* right:35px; */
+    /* padding-right:10px; */
+    /* background-color: chartreuse; */
+}
+
+.container>div{
+    position: relative;
+}
+
+
+.new_collection>.container>div:last-child{
+    /* margin-right:0; */
+}
+
+.new_collection>.container>div>h2{
+    margin-bottom:30px;
+    font-size:33px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.new_collection>.container>div>img{
+    width:500px;
+    height:350px;
+    background-color: darkgoldenrod;
+    margin:15px;
+}
+
+.new_collection>.container>div{
+    text-align:center;
+    margin:20px 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+/* .new_collection>.container>div>h3,
+.new_collection>.container>div>p{
+    text-align:center;
+    margin:20px 0;
+    font-family: 'Noto Sans KR', sans-serif;
+} */
+
+.new_collection>.container h3{
+    font-size:20px;
+    font-weight:bold;
+    background-color: blanchedalmond;
+}
+
+.new_collection>.container p{
+    margin:10px 0;
+    font-size:16px;
+}
+
+/* gift box */
+
+
+.gift_boxTop{
+    margin:150px 0;
+}
+.gift_boxTop>div{
+    width:50%;
+    height:120px;
+    float:left;
+}
+.gift_boxTop>.gift_right{
+    background:#e3d8c4;
+}
+
+.gift_boxTop>.gift_left{
+    background:#cc9966;
+}
+
+.gift_boxTop>div>h2{
+    text-align:center;
+    font-size:28px;
+    color:white;
+    font-family:'Noto Sans KR', sans-serif;
+    padding-top:40px;
+}
+
+.gift_boxBottom>div:first-child{
+    margin-bottom:150px;
+}
+
+.gift_boxBottom>div>h2, .gift_boxBottom>div>p{
+    text-align: center;
+}
+
+.gift_boxBottom>div>h2{
+    font-size:30px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.gift_boxBottom>div>p{
+    font-size:22px;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+
+.gift_boxBottom>div img{
+    width:750px;
+    height:350px;
+    
+}
+
+.gift_boxBottom>div:last-child>div{
+    float:left;
+    margin-right:75px;
+}
+.gift_boxBottom>div:last-child>div:last-child{
+    margin-right:0;
+}
+
+
+
+
+.gift_boxBottom>.clearFix>div>h3, 
+.gift_boxBottom>.clearFix>div>p{
+    text-align: center;
+    margin-top:40px;
+}
+
+.gift_boxBottom>.clearFix>div>h3{
+    font-size: 24px;
+    color:#262626;
+    /* font-family: 'Noto Sans KR', sans-serif; */
+}
+
+.gift_boxBottom>.clearFix>div>p{
+    font-size:20px;
+    color:#444;
+    margin-bottom:150px;
+}
+
+
+/* Bvlgari Goods  */
+
+.Bvlgari_Goods>h2{
+    
+    text-align: center;
+    font-size: 35px;
+    margin-bottom:150px;
+    /* background-color:rgb(142, 112, 172,0.6); */
+} 
+
+.goods{
+    display: inline-block;
+    max-width:1900px;
+    height:343px;
+    margin-left:30px;
+    margin-bottom:150px;
+    /* float:right; */
+    position: relative; 
+    /* background-color:saddlebrown;     */
+} 
+
+.goods img{
+    /* background-color:slateblue; */
+    
+}
+
+.goods:nth-child(3)>a{
+    display: inline-block;
+    margin:0 auto;
+    /* padding-top:50px; */
+    /* background-color: red; */
+}
+
+.goods>a, .goods>h2,.goods> span {
+    display: flex;
+    justify-content:center;
+    /* padding-bottom:15px; */
+   /* background-color:seagreen; */
+   /* text-align:center; */
+} 
+
+
+.goods>h2{
+    font-size:18px;
+}
+.goods> span{
+    font-size:16px;
+    
+}
+
+.goods:hover{
+    color:white;
+    transform:scale(1.3);
+}
+
+
+
+.goods:hover::after{
+    content:"";
+    display:block;
+    /* color: white; */
+    z-index:-1;
+    font-size:21px;
+    background-color: black;
+    height:150px;
+    width:100%;
+    /* margin-bottom:50px; */
+    position: absolute;
+    /* bottom:50px; */
+    top:50%;
+}
+
+
+
+/* Bvlgari Magazin */
+
+.Bvlgari_magazin{
+    background: black;
+    color:white;
+}
+
+.magazinname{
+    font-size:75px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.magazin{
+    display:flex;
+    justify-content:space-between;
+    position: relative;
+}
+
+div>.magazin{
+    /* background-color:lime; */
+    position:relative;
+}
+
+div>.magazin p.name{
+    font-size:30px;
+    font-weight: bolder;
+    position:absolute;
+    /* top:20px; */
+    margin:20px;
+    
+}
+
+div>.magazin p.month{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    position:absolute;
+    /* top:60px; */
+    margin:60px;
+    padding-left:110px;
+}
+
+
+
+
+.magazin>div>a{
+    display:inline-block;
+    margin-bottom:60px;
+    /* margin-top:50px; */
+    /* width:330px;
+    height:510px; */
+    /* background-color: blue; */
+}
+
+
+/* footer */
+
+
+footer {
+    background-color: black;
+    border-top:3px solid white;
+    color:white;
+    padding: 36px 0;
+}
+
+
+.foot_wrap > .logo {
+    width: 500px;
+    height: 30px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto 30px;
+}
+
+.foot_wrap > .bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot_wrap > .bottom > .address,
+.foot_wrap > .bottom > .right {
+    width: 310px;
+    /* height: 120px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foot_wrap > .bottom > .right > .sns_wrap,
+.foot_wrap > .bottom > .right > .public {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot_wrap > .bottom > .right > .sns_wrap > li > a > img {
+    width: 36px;
+    height: 36px;
+}

@@ -1,0 +1,694 @@
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+body {
+    font-family: 'Noto Sans KR', sans-serif; 
+    font-size:14px;
+    color:#000;
+}
+
+a {
+    color:#333;
+}
+
+/* top menu */
+
+.center{
+    max-width:1580px;
+    /* background-color:darkkhaki; */
+    margin:0 auto;
+    position:relative;
+}
+
+
+
+
+
+
+/* header */
+
+header{
+    /* width:100%;
+    height:100%; */
+    background-color: rgb(196, 159, 231,0.5);
+    /* width:1850px; */
+    position: relative;
+    z-index: 1000;
+} 
+
+header>.center{
+    position: relative;
+}
+
+/* logo */
+
+.logo img {
+    float:left;
+    margin:50px 0;
+    width:310px;
+    height:60px; 
+    /* background-color: darkblue; */
+}
+
+header .top {
+    /* background-color: cadetblue; */
+    position:absolute;
+    top:0;
+    right:0;
+    /* margin-top:15px; */
+    /* margin-right:50px; */
+    /* max-width:1580px; */
+    font-size:13px; 
+    margin:10px 0;
+    color:#222;   
+}
+
+
+.top>a {
+   /* background-color: navy; */
+      /* position: relative; */
+    padding:20px 0 0 0;
+    /* margin:20px 0 20px 0; */
+    margin-left:20px;
+}
+
+/* menu */
+
+#nav{
+    /* width:100%; */
+    float:right;
+    padding-top:30px;
+    /* margin-top:30px; */
+    /* position: relative; */
+    /* display: block; */
+    /* float:right; */
+    text-align: center;
+    /* background-color:dodgerblue; */
+}
+
+.navWrap{
+    max-width:1580px;
+    position: relative;
+    /* display:flex; */
+    justify-content:space-between;
+    /* margin-top:20px; */
+    /* background-color:darkslateblue;  */
+}
+
+.navWrap>li{
+    float:left;
+    margin:40px 0 0 65px;
+    text-align: center;
+    /* top:0; */
+    /* padding-bottom:10px; */
+    /* background-color:darkturquoise; */
+}
+
+.navWrap>li>a{
+    /* float: right; */
+    background-color:darkgreen;
+}
+
+
+.navWrap>.mainmenu>a{
+    position: relative;
+    /* padding-left:10px; */
+    /* margin-left:20px; */
+    font-size:18px;
+    font-weight:bolder;
+    font-family: 'Lato', sans-serif;
+    /* background-color:pink; */
+    /* display: none; */
+}
+
+
+
+.navWrap>li:hover .subMain{
+    display: block;
+}
+
+.navWrap .subMain{
+    position: absolute;
+    display: none;
+    background-color:darkmagenta;
+    width:100%;
+    left:0;
+
+}
+
+
+.mainmenu>ul{
+    /* position:absolute;
+    text-align: center; */
+    font-size:16px;
+    font-family: 'Noto Sans KR', sans-serif; 
+    /* background-color: blue; */
+}
+
+
+.subWrap{
+    float:left;
+
+}
+
+.subWrap>li{
+    /* position:relative; */
+}
+
+.subWrap>li>a{
+    display:block;
+    text-align:left;
+    
+    /* right:10px; */
+}
+
+.subWrap>li:hover .sub{
+    display:block;
+}
+
+
+
+.subWrap>li>.sub{
+    width:200px;
+    /* height:300px; */
+    display: none;
+    position:absolute;
+    top:0;
+    left:200px;
+    /* float:right; */
+    /* margin-top:15px; */
+    /* margin-left:0; */
+    background-color:rgb(187, 187, 241,0.8);
+}
+
+.sub>li{
+    padding: 5px 40px;
+}
+
+
+.sub>li:hover .subBox{
+    display: block;
+}
+
+.sub>li>a{
+    display:block;
+    text-align:left;
+}
+.sub>li>.subBox{
+    display: none;
+    background-color:rgb(114, 172, 114,0.8);
+}
+
+.subBox{
+    position: absolute;
+    top:0;
+    right:-147px;
+    /* height:300px; */
+
+}
+
+.subBox>li{
+    padding: 5px 5px;
+    text-align:left;
+}
+
+.subMain>p{
+    float:right;
+}
+
+
+
+/* mainBanner */
+
+#mainbanner{
+    overflow: hidden;
+   
+    margin-bottom:65px;
+    /* background-color: red; */
+    height:450px;
+    /* background:#555; */
+    position:relative;
+}
+
+
+
+.mainBanner>.bannerWrap .banner{
+
+    position:absolute;
+}
+.mainBanner>.bannerWrap .banner img{
+    /* height:600px; */
+}
+
+
+.mainBanner>.bannerWrap .banner h2,
+.mainBanner>.bannerWrap .banner button{
+    /* background-color: blueviolet; */
+    position:absolute;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:10px;
+
+}
+
+.mainBanner>.bannerWrap .banner h2{
+    font-size:30px;
+}
+
+.mainBanner>.bannerWrap .banner .one{
+    /* background-color: brown; */
+    padding-top:100px;
+    left:20%;
+    
+}
+
+.mainBanner>.bannerWrap .banner .two{
+    /* right:40%; */
+    /* left:30%; */
+    /* margin-right:20px; */
+    padding:100px;
+    /* background-color:silver; */
+}
+
+.mainBanner>.bannerWrap .banner .three{
+    color:white;
+    left:20%;
+}
+
+.mainBanner>.bannerWrap .banner .button{
+    background-color:teal;
+    font-size:20px;
+    font-family: 'Lato', sans-serif; 
+    color:#666666;
+    margin-bottom:75px;
+}
+
+/* cirBtn */
+
+.cirBtn{
+    position: absolute;
+    right:40%;
+    top:50%;
+    width:150px;
+    padding-left:50px;
+    background-color: cornflowerblue;
+}
+
+
+.cirBtn>li{
+    display: block;
+    float:left;
+    width:15px;
+    height: 15px;
+    margin:15px;
+    background: #ccc;
+    border-radius: 50%;
+    text-indent:-9999px;
+}
+
+.cirBtn>li:hover{
+    background: rgb(41, 41, 41);
+}
+
+/* <!-- new Collection --> */
+
+
+.new_collection{
+    /* position:relative; */
+    /* display: inline-block; */
+}
+
+
+.new_collection>.container{
+    top:300px;
+    /* position:absolute;  */
+    display: flex;
+    justify-content:center; 
+    /* top:0; */
+    /* right:35px; */
+    /* padding-right:10px; */
+    background-color: chartreuse;
+}
+
+.container>div{
+    position: relative;
+}
+
+
+.new_collection>.container>div:last-child{
+    /* margin-right:0; */
+}
+
+.new_collection>.container>div>h2{
+    margin-bottom:30px;
+    font-size:33px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.new_collection>.container>div>img{
+    width:500px;
+    height:350px;
+    background-color: darkgoldenrod;
+}
+
+.new_collection>.container>div>h3,
+.new_collection>.container>div>p{
+    text-align:center;
+    margin:20px 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.new_collection>.container>div>h3{
+    font-size:20px;
+    font-weight:bold;
+}
+.new_collection>.container>div>p{
+    margin:10px 0;
+    font-size:16px;
+}
+
+/* gift box */
+
+
+.gift_boxTop{
+    margin:150px 0;
+}
+.gift_boxTop>div{
+    width:50%;
+    height:120px;
+    float:left;
+}
+.gift_boxTop>.gift_right{
+    background:#e3d8c4;
+}
+
+.gift_boxTop>.gift_left{
+    background:#cc9966;
+}
+
+.gift_boxTop>div>h2{
+    text-align:center;
+    font-size:28px;
+    color:white;
+    font-family:'Noto Sans KR', sans-serif;
+    padding-top:40px;
+}
+
+.gift_boxBottom>div:first-child{
+    margin-bottom:150px;
+}
+
+.gift_boxBottom>div>h2, .gift_boxBottom>div>p{
+    text-align: center;
+}
+
+.gift_boxBottom>div>h2{
+    font-size:30px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.gift_boxBottom>div>p{
+    font-size:22px;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+
+.gift_boxBottom>div img{
+    width:750px;
+    height:350px;
+    
+}
+
+.gift_boxBottom>div:last-child>div{
+    float:left;
+    margin-right:75px;
+}
+.gift_boxBottom>div:last-child>div:last-child{
+    margin-right:0;
+}
+
+
+
+
+.gift_boxBottom>.clearFix>div>h3, 
+.gift_boxBottom>.clearFix>div>p{
+    text-align: center;
+    margin-top:40px;
+}
+
+.gift_boxBottom>.clearFix>div>h3{
+    font-size: 24px;
+    color:#262626;
+    /* font-family: 'Noto Sans KR', sans-serif; */
+}
+
+.gift_boxBottom>.clearFix>div>p{
+    font-size:20px;
+    color:#444;
+    margin-bottom:150px;
+}
+
+
+/* Bvlgari Goods  */
+
+.Bvlgari_Goods>h2{
+    
+    text-align: center;
+    font-size: 35px;
+    margin-bottom:150px;
+    /* background-color:rgb(142, 112, 172,0.6); */
+} 
+
+.goods{
+    display: inline-block;
+    max-width:1900px;
+    height:343px;
+    margin-left:30px;
+    margin-bottom:150px;
+    /* float:right; */
+    position: relative; 
+    /* background-color:saddlebrown;     */
+} 
+
+.goods img{
+    /* background-color:slateblue; */
+    
+}
+
+.goods:nth-child(3)>a{
+    display: inline-block;
+    margin:0 auto;
+    /* padding-top:50px; */
+    /* background-color: red; */
+}
+
+.goods>a, .goods>h2,.goods> span {
+    display: flex;
+    justify-content:center;
+    /* padding-bottom:15px; */
+   /* background-color:seagreen; */
+   /* text-align:center; */
+} 
+
+
+.goods>h2{
+    font-size:18px;
+}
+.goods> span{
+    font-size:16px;
+    
+}
+
+.goods:hover{
+    color:white;
+    transform:scale(1.3);
+}
+
+
+
+.goods:hover::after{
+    content:"";
+    display:block;
+    /* color: white; */
+    z-index:-1;
+    font-size:21px;
+    background-color: black;
+    height:150px;
+    width:100%;
+    /* margin-bottom:50px; */
+    position: absolute;
+    /* bottom:50px; */
+    top:50%;
+}
+
+
+
+/* Bvlgari Magazin */
+
+.Bvlgari_magazin{
+    background: black;
+    color:white;
+}
+
+.magazinname{
+    font-size:75px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.magazin{
+    display:flex;
+    justify-content:space-between;
+    position: relative;
+}
+
+div>.magazin{
+    /* background-color:lime; */
+    position:relative;
+}
+
+div>.magazin p.name{
+    font-size:30px;
+    font-weight: bolder;
+    position:absolute;
+    /* top:20px; */
+    margin:20px;
+    
+}
+
+div>.magazin p.month{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    position:absolute;
+    /* top:60px; */
+    margin:60px;
+    padding-left:110px;
+}
+
+
+
+
+.magazin>div>a{
+    display:inline-block;
+    margin-bottom:60px;
+    /* margin-top:50px; */
+    /* width:330px;
+    height:510px; */
+    /* background-color: blue; */
+}
+
+
+/* footer */
+
+
+#footer{
+    background-color: black;
+    border-top:3px solid white;
+    /* width:100%; */
+    color:white;
+
+}
+
+.footerWrap{
+    background-color: black;
+    border-top:3px solid white;
+    /* display: block; */
+    /* width:100%; */
+    color:white;
+
+}
+
+.footerWrap{
+    /* background-color: black; */
+    /* border-top:2px solid white; */
+    /* color: white; */
+    /* position: relative; */
+}
+
+.footerWrap>.footerlogo{
+    font-size:50px;
+    text-align: center;
+    /* color:white; */
+    
+}
+
+/* .footerWrap>.img{
+    text-align: center;
+    background-color: red;
+    margin-bottom:40px;
+    display: inline-block;
+    margin:0 auto;
+} */
+
+/* .img img{
+    width:253px;
+    height:45px;
+} */
+
+.footerWrap>.address{
+    text-align:left;
+    /* position:absolute; */
+    left:18%;
+    font-size:18px;
+    width:490px;
+    height:270px;
+    margin-right:370px;
+    padding-left: 30px;
+    padding-bottom:8px;
+    /* background-color:blue; */
+}
+
+.footerWrap>.right{
+    width:490px;
+    /* height:270px; */
+    float:right;
+    /* margin-right: 100px; */
+    /* right:20px; */
+    left: 60%;
+    position:absolute;
+    /* background-color: cornflowerblue; */
+}
+
+
+
+.right>.snsWrap>li{
+    /* float:right; */
+    /* display: inline-block; */
+    float:left;
+    font-size:70px;
+    /* color:white; */
+    /* width:100%; */
+    right:0;
+    /* background-color: coral; */
+}
+.right>.snsWrap>li a{
+    /* width:40px; */
+}
+
+
+.footerWrap>div>.public{
+    /* background-color:purple; */
+    display: block;
+    position:absolute;
+    margin-top: 50px;
+    top:90px;
+    /* width:300px; */
+    /* margin:0 auto; */
+    font-size:18px;
+    /* text-align: center; */
+    /* top:60px; */
+    /* margin-bottom:60px; */
+}
+
+.footerWrap>.right>.public>p{
+    float:left;
+    
+    padding-right:15px;
+}
